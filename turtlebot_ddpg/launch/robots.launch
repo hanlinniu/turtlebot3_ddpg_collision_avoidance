@@ -1,0 +1,55 @@
+<launch>
+  <!-- No namespace here as we will share this description. 
+       Access with slash at the beginning -->
+
+ <param name="robot_description"
+    command="$(find xacro)/xacro.py $(find turtlebot_description)/robots/kobuki_hexagons_hokuyo.urdf.xacro" />
+ 
+  <!-- BEGIN ROBOT 1-->
+  <group ns="robot1">
+    <param name="tf_prefix" value="robot1_tf" />
+    <include file="$(find turtlebot_iros)/launch/one_robot.launch" >
+      <arg name="init_pose" value="-x 1 -y 1 -z 0" />
+      <arg name="robot_name"  value="Robot1" />
+    </include>
+  </group>
+ 
+  <!-- BEGIN ROBOT 2-->
+  <group ns="robot2">
+    <param name="tf_prefix" value="robot2_tf" />
+    <include file="$(find turtlebot_iros)/launch/one_robot.launch" >
+      <arg name="init_pose" value="-x -1 -y 1 -z 0" />
+      <arg name="robot_name"  value="Robot2" />
+    </include>
+  </group>
+
+  <!-- BEGIN ROBOT 3-->
+  <group ns="robot3">
+    <param name="tf_prefix" value="robot3_tf" />
+    <include file="$(find turtlebot_iros)/launch/one_robot.launch" >
+      <arg name="init_pose" value="-x -3 -y 1 -z 0" />
+      <arg name="robot_name"  value="Robot3" />
+    </include>
+  </group>
+
+
+  <!-- BEGIN ROBOT 4-->
+  <group ns="robot4">
+    <param name="tf_prefix" value="robot4_tf" />
+    <include file="$(find turtlebot_iros)/launch/one_robot.launch" >
+      <arg name="init_pose" value="-x -5 -y 1 -z 0" />
+      <arg name="robot_name"  value="Robot4" />
+    </include>
+  </group>
+
+
+    <!-- BEGIN ROBOT 5-->
+  <group ns="robot5">
+    <param name="tf_prefix" value="robot5_tf" />
+    <include file="$(find turtlebot_iros)/launch/one_robot.launch" >
+      <arg name="init_pose" value="-x -7 -y 1 -z 0" />
+      <arg name="robot_name"  value="Robot5" />
+    </include>
+  </group>
+
+</launch>
