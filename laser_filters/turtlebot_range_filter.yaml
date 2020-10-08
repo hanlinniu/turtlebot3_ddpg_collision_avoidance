@@ -1,0 +1,11 @@
+scan_filter_chain:
+- name: range  #box_filter
+  type: LaserScanRangeFilter #laser_filters/LaserScanRangeFilter
+  params:
+    use_message_range_limits: false   # if not specified defaults to false
+    angle_min: -2.0944
+    angle_max: 2.0944
+    lower_threshold: 0.08           # if not specified defaults to 0.0
+    upper_threshold: 5.0             # if not specified defaults to 100000.0
+    lower_replacement_value: 0.08    # if not specified defaults to NaN
+    upper_replacement_value: 5.0   # if not specified defaults to NaN
