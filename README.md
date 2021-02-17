@@ -1,5 +1,5 @@
 # Project Title: Mapless collision avoidance of turtlebot3 using DDPG
-The paper is accepted in SII 2021. Paper title 'Accelerated Sim-to-Real Deep Reinforcement Learning: Learning Collision Avoidance from Human Player'
+This work is implemented in paper'Accelerated Sim-to-Real Deep Reinforcement Learning: Learning Collision Avoidance from Human Player' published in 2021 IEEE/SICE International Symposium on System Integration (SII) and "Voronoi-Based Multi-Robot Autonomous Exploration in Unknown Environments via Deep Reinforcement Learning" published in IEEE Transactions on Vehicular Technology. 
 
 This code is for training and testing ddpg algorithm on turtlebot3 waffle pi.
 
