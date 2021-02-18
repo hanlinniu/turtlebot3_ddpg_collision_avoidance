@@ -49,7 +49,6 @@ Please refer to [Turtlebot3 Setup](http://emanual.robotis.com/docs/en/platform/t
 $ cd ~/catkin_ws/src/
 $ git clone https://github.com/hanlinniu/UGV_CA_ddpg.git
 $ cd ~/catkin_ws && catkin_make
-
 ```
 
 ### Start gazebo world (Change your world file location based on your setting)
@@ -60,7 +59,6 @@ $ roslaunch turtlebot_ddpg turtlebot3_empty_world.launch world_file:='/home/hanl
 To launch the maze world
 ```
 $ roslaunch turtlebot_ddpg turtlebot3_empty_world.launch world_file:='/home/hanlin/catkin_ws/src/turtlebot_ddpg/worlds/turtlebot3_modified_maze.world'
-
 ```
 
 ### Start a new terminal and Open python virtual environment
@@ -81,7 +79,6 @@ For train and play with ddpg with human data
 ```
 $ cd ~/catkin_ws/src/UGV_CA_ddpg/turtlebot_ddpg/scripts/fd_replay/play_human_data
 $ rosrun turtlebot_ddpg ddpg_network_turtlebot3_amcl_fd_replay_human.py
-
 ```
 
 For training
@@ -92,7 +89,6 @@ please change train_indicator=1 under ddpg_network_turtlebot3_original_ddpg.py o
 For playing trained weights
 ```
  please change train_indicator=0 under ddpg_network_turtlebot3_original_ddpg.py or ddpg_network_turtlebot3_amcl_fd_replay_human.py
-
 ```
 
 
@@ -101,10 +97,9 @@ For playing trained weights
 
 * **Hanlin Niu** - *Initial work* - [Personal Page](https://www.research.manchester.ac.uk/portal/hanlin.niu.html)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ### Paper
-If you use this code in your research, please cite our IEEE Transactions on Vehicular Technology paper
+If you use this code in your research, please cite our IEEE Transactions on Vehicular Technology paper:
 ```
 @article{hu2020voronoi,
   title={Voronoi-based multi-robot autonomous exploration in unknown environments via deep reinforcement learning},
