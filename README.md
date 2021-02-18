@@ -103,12 +103,17 @@ For playing trained weights
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+### Paper
+If you use this code in your research, please cite our IEEE Transactions on Vehicular Technology paper
+```
+@article{hu2020voronoi,
+  title={Voronoi-based multi-robot autonomous exploration in unknown environments via deep reinforcement learning},
+  author={Hu, Junyan and Niu, Hanlin and Carrasco, Joaquin and Lennox, Barry and Arvin, Farshad},
+  journal={IEEE Transactions on Vehicular Technology},
+  volume={69},
+  number={12},
+  pages={14413--14423},
+  year={2020},
+  publisher={IEEE}
+}
+```
