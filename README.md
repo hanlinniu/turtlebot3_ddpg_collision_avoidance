@@ -1,4 +1,4 @@
-# Project Title: Mapless collision avoidance of turtlebot3 using DDPG
+# Project Title: Mapless Collision Avoidance of Turtlebot3 Mobile Robot Using DDPG and Prioritized Experience Replay
 This work is implemented in paper [Accelerated Sim-to-Real Deep Reinforcement Learning: Learning Collision Avoidance from Human Player](https://www.researchgate.net/publication/349350160_Accelerated_Sim-to-Real_Deep_Reinforcement_Learning_Learning_Collision_Avoidance_from_Human_Player) published in 2021 IEEE/SICE International Symposium on System Integration (SII) and [Voronoi-Based Multi-Robot Autonomous Exploration in Unknown Environments via Deep Reinforcement Learning](https://ieeexplore.ieee.org/abstract/document/9244647) published in IEEE Transactions on Vehicular Technology.
 
 Demo Video: [Link](https://youtu.be/BmwxevgsdGc) 
