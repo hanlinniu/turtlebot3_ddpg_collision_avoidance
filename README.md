@@ -3,6 +3,8 @@ This work is implemented in paper [Accelerated Sim-to-Real Deep Reinforcement Le
 
 Demo Video: [Link](https://youtu.be/BmwxevgsdGc) 
 
+![](multiple-turtlebot-collision-avoidance.gif)
+
 This code is for training and testing ddpg algorithm on turtlebot3 waffle pi.
 
 
