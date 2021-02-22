@@ -3,7 +3,11 @@ This work is implemented in paper [Accelerated Sim-to-Real Deep Reinforcement Le
 
 Demo Video: [Link](https://youtu.be/BmwxevgsdGc) 
 
+Single Turtlebot3 Collision Avoidance:
+
 ![](single-turtlebot-collision-avoidance.gif)
+
+Multiple Turtlebot3 Collision Avoidance:
 
 ![](multiple-turtlebot-collision-avoidance.gif)
 
