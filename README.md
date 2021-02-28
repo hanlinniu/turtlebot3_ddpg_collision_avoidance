@@ -27,7 +27,17 @@ What things you need to install the software
 ```
 Ubuntu 16.04
 ROS Kinetic
-Tensorflow
+Tensorflow-gpu
+Keras
+```
+
+
+### Virtual Environment
+
+You need to make a virtual environment called 'ddpg_env' and install the following library for it.
+
+```
+Tensorflow-gpu
 Keras
 ```
 
