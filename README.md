@@ -74,11 +74,11 @@ $ cd ~/catkin_ws && catkin_make
 ### Start gazebo world (Change your world file location based on your setting)
 To launch the corridor world
 ```
-$ roslaunch turtlebot_ddpg turtlebot3_empty_world.launch world_file:='/home/hanlin/catkin_ws/src/turtlebot_ddpg/worlds/turtlebot3_modified_corridor2.world'
+$ roslaunch turtlebot_ddpg turtlebot3_empty_world.launch world_file:='/home/hanlin/catkin_ws/src/turtlebot3_ddpg_collision_avoidance/turtlebot_ddpg/worlds/turtlebot3_modified_corridor2.world'
 ```
 To launch the maze world
 ```
-$ roslaunch turtlebot_ddpg turtlebot3_empty_world.launch world_file:='/home/hanlin/catkin_ws/src/turtlebot_ddpg/worlds/turtlebot3_modified_maze.world'
+$ roslaunch turtlebot_ddpg turtlebot3_empty_world.launch world_file:='/home/hanlin/catkin_ws/src/turtlebot3_ddpg_collision_avoidance/turtlebot_ddpg/worlds/turtlebot3_modified_maze.world'
 ```
 
 ### Start a new terminal and Open python virtual environment
