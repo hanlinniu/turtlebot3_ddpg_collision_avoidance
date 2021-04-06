@@ -67,7 +67,7 @@ Please refer to [Turtlebot3 Setup](http://emanual.robotis.com/docs/en/platform/t
 
 ```
 $ cd ~/catkin_ws/src/
-$ git clone https://github.com/hanlinniu/UGV_CA_ddpg.git
+$ git clone https://github.com/hanlinniu/turtlebot3_ddpg_collision_avoidance.git
 $ cd ~/catkin_ws && catkin_make
 ```
 
