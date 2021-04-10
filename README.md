@@ -27,8 +27,8 @@ What things you need to install the software
 ```
 Ubuntu 16.04
 ROS Kinetic
-Tensorflow-gpu == 1.x
-Keras
+Tensorflow-gpu == 1.13.1 or 1.14.0
+Keras == 2.3.1
 ```
 
 
@@ -37,8 +37,8 @@ Keras
 You need to make a virtual environment called 'ddpg_env' and install the following library for it.
 
 ```
-Tensorflow-gpu == 1.x
-Keras
+Tensorflow-gpu == 1.13.1 or 1.14.0
+Keras == 2.3.1
 ```
 
 ### Installing
