@@ -119,7 +119,7 @@ For playing trained weights
 
 
 ### Paper
-If you use this code in your research, please cite our IEEE Transactions on Vehicular Technology paper:
+If you use this code in your research, please cite our SII paper or IEEE Transactions on Vehicular Technology paper:
 ```
 @inproceedings{niu2021accelerated,
   title={Accelerated sim-to-real deep reinforcement learning: Learning collision avoidance from human player},
@@ -128,5 +128,17 @@ If you use this code in your research, please cite our IEEE Transactions on Vehi
   pages={144--149},
   year={2021},
   organization={IEEE}
+}
+```
+```
+@article{hu2020voronoi,
+  title={Voronoi-based multi-robot autonomous exploration in unknown environments via deep reinforcement learning},
+  author={Hu, Junyan and Niu, Hanlin and Carrasco, Joaquin and Lennox, Barry and Arvin, Farshad},
+  journal={IEEE Transactions on Vehicular Technology},
+  volume={69},
+  number={12},
+  pages={14413--14423},
+  year={2020},
+  publisher={IEEE}
 }
 ```
