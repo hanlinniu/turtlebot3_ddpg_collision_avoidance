@@ -121,14 +121,12 @@ For playing trained weights
 ### Paper
 If you use this code in your research, please cite our IEEE Transactions on Vehicular Technology paper:
 ```
-@article{hu2020voronoi,
-  title={Voronoi-based multi-robot autonomous exploration in unknown environments via deep reinforcement learning},
-  author={Hu, Junyan and Niu, Hanlin and Carrasco, Joaquin and Lennox, Barry and Arvin, Farshad},
-  journal={IEEE Transactions on Vehicular Technology},
-  volume={69},
-  number={12},
-  pages={14413--14423},
-  year={2020},
-  publisher={IEEE}
+@inproceedings{niu2021accelerated,
+  title={Accelerated sim-to-real deep reinforcement learning: Learning collision avoidance from human player},
+  author={Niu, Hanlin and Ji, Ze and Arvin, Farshad and Lennox, Barry and Yin, Hujun and Carrasco, Joaquin},
+  booktitle={2021 IEEE/SICE International Symposium on System Integration (SII)},
+  pages={144--149},
+  year={2021},
+  organization={IEEE}
 }
 ```
