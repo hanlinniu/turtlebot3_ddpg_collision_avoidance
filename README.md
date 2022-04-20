@@ -61,7 +61,7 @@ $ cd ~/catkin_ws && catkin_make
 
 ## Setting up the network between PC and turtlebot
 
-Please refer to [Turtlebot3 Setup](http://emanual.robotis.com/docs/en/platform/turtlebot3/pc_setup/#install-ubuntu-on-remote-pc)
+Please refer to [Turtlebot3 Setup](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup)
 
 ## Git clone ddpg scripts
 
