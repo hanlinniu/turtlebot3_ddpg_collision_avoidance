@@ -43,7 +43,7 @@ Keras == 2.3.1
 
 ### Installing
 
-The next step is to install dependent packages for TurtleBot3 control on Remote PC. For more details, please refer to [turtlebot3](http://emanual.robotis.com/docs/en/platform/turtlebot3/setup/#setup).
+The next step is to install dependent packages for TurtleBot3 control on Remote PC. For more details, please refer to [turtlebot3](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup).
 
 ```
 $ sudo apt-get update
