@@ -9,11 +9,6 @@
 
 
 
-## Command:
-## roslaunch turtlebot_iros turtlebot_world.launch world_file:='/home/hanlin/catkin_ws/src/turtlebot/turtlebot_iros/modified_world.world'
-## source ~/iros_env/bin/activate
-## rosrun turtlebot_iros ddpg_turtlebot.py
-
 import rospy
 import rospkg
 import tf
