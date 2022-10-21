@@ -71,6 +71,7 @@ Please refer to [Turtlebot3 Setup](https://emanual.robotis.com/docs/en/platform/
 $ cd ~/catkin_ws/src/
 $ git clone https://github.com/hanlinniu/turtlebot3_ddpg_collision_avoidance.git
 $ cd ~/catkin_ws && catkin_make
+$ echo "export TURTLEBOT3_MODEL=waffle_pi" >> ~/.bashrc
 ```
 
 ### Please use the new turtlebot3_waffle_pi.urdf.xacro and turtlebot3_waffle_pi.gazebo.xacro in the turtlebot3_description folder instead of using the original ones from this repository to change the laser from 360 rays to be 24 rays.
