@@ -164,7 +164,7 @@ class GameState:
         # random_turtlebot_y = (np.random.random())*4 + index_turtlebot_y
 
         # for corridor
-        self.target_x = (np.random.random()-0.5)*5 + 12*index_x
+        self.target_x = (np.random.random()-0.5)*5 + 14*index_x
         self.target_y = (np.random.random()-0.5)*3
         random_turtlebot_y = (np.random.random())*5 #+ index_turtlebot_y
 
