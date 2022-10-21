@@ -71,7 +71,7 @@ $ git clone https://github.com/hanlinniu/turtlebot3_ddpg_collision_avoidance.git
 $ cd ~/catkin_ws && catkin_make
 ```
 
-### Please use the new turtlebot3_waffle_pi.urdf.xacro and turtlebot3_waffle_pi.gazebo.xacro in the turtlebot3_description folder instead of using the original ones from this repository to change the laser from 360 laser to be 24 laser.
+### Please use the new turtlebot3_waffle_pi.urdf.xacro and turtlebot3_waffle_pi.gazebo.xacro in the turtlebot3_description folder instead of using the original ones from this repository to change the laser from 360 rays to be 24 rays.
  
 
 ### Start gazebo world (Change your world file location based on your setting)
