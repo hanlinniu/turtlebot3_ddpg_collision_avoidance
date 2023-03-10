@@ -121,7 +121,7 @@ For playing trained weights
 
 ## Authors
 
-* **Hanlin Niu** - [Personal Page](https://www.research.manchester.ac.uk/portal/hanlin.niu.html)
+* **Hanlin Niu** - [Personal Page](https://scholar.google.com/citations?user=8rF8ZdgAAAAJ&hl=en)
 
 
 ### Paper
