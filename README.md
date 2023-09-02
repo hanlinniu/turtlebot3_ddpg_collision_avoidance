@@ -96,14 +96,14 @@ $ source ~/ddpg_env/bin/activate
 For train and play with original ddpg
 
 ```
-$ cd ~/catkin_ws/src/UGV_CA_ddpg/turtlebot_ddpg/scripts/original_ddpg
+$ cd ~/catkin_ws/src/turtlebot3_ddpg_collision_avoidance/turtlebot_ddpg/scripts/original_ddpg
 $ rosrun turtlebot_ddpg ddpg_network_turtlebot3_original_ddpg.py
 ```
 
 
 For train and play with ddpg with human data
 ```
-$ cd ~/catkin_ws/src/UGV_CA_ddpg/turtlebot_ddpg/scripts/fd_replay/play_human_data
+$ cd ~/catkin_ws/src/turtlebot3_ddpg_collision_avoidance/turtlebot_ddpg/scripts/fd_replay/play_human_data
 $ rosrun turtlebot_ddpg ddpg_network_turtlebot3_amcl_fd_replay_human.py
 ```
 
