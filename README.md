@@ -35,7 +35,7 @@ numpy == 1.16.6
 
 ### Virtual Environment
 
-You need to make a virtual environment called 'ddpg_env' and install the following library for it.
+You need to make a virtual environment called 'ddpg_env' and install the following library for it. If you are using ros-noetic not ros-kinetic, you need to install tensorflow-cpu==1.15.0.
 
 ```
 tensorflow-gpu == 1.13.1 or 1.14.0 (in case you have nvidia 10 series or 20 series gpu) or tensorflow-cpu==1.15.0 (in case you don't have nvidia gpu)
